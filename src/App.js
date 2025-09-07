@@ -1,14 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
+import Header from './components/Header';
+import Home from './pages/Home';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Hello from V3</h1>
-      </header>
+      <Header title="Meu Web App" />
+      <Home />
     </div>
   );
 }
